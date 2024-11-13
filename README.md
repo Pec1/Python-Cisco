@@ -15,6 +15,26 @@ Este repositório contém os projetos finais desenvolvidos durante o curso de Py
    o programa verifica se o jogo acabou - há quatro veredictos possíveis: o jogo deve continuar, o jogo termina com um empate, você ganha ou o computador ganha;
    o computador responde seu movimento e a verificação é repetida;
    não implementem qualquer forma de inteligência artificial - uma escolha de campo aleatória feita pelo computador é boa o suficiente para o jogo.
+  
+  * Requisitos
+   Implemente os seguintes recursos:
+   
+   o painel deve ser armazenado como uma lista de três elementos, enquanto cada elemento é outra lista de três elementos (as listas internas representam linhas) para que todos os quadrados possam ser acessados usando a seguinte sintaxe:
+   
+   ````board[row][column]````
+                     
+   cada um dos elementos da lista interna pode conter "O", "X" ou um dígito que representa o número do quadrado (tal quadrado é considerado livre)
+   a aparência do quadro deve ser exatamente igual à apresentada no exemplo.
+   implementar as funções definidas para você no editor.
+   
+   O desenho de um número inteiro aleatório pode ser feito utilizando uma função Python chamada randrange(). O programa de exemplo abaixo mostra como usá-lo (o programa imprime dez números aleatórios de 0 a 8).
+   
+   Observação: a instrução from-import fornece acesso à função randrange definida em um módulo externo do Python chamado de random.
+   
+   from random import randrange
+    
+   for i in range(10):
+    print(randrange(8))
 
 * **Automatização de Backups:**
     * Script em Python para automatizar o processo de backup de arquivos e diretórios.
