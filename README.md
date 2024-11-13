@@ -1,9 +1,9 @@
-# Projetos Finais - Curso de Python - Cisco Networking Academy
+# Projeto Final - Curso de Python - Cisco Networking Academy
 
 ## Sobre
-Este repositório contém os projetos finais desenvolvidos durante o curso de Python da Cisco Networking Academy. Os projetos exploram a manipulação de dados, automação de tarefas e desenvolvimento web.
+Este repositório contém o projeto final desenvolvido durante o curso de Python da Cisco Networking Academy.
 
-## Projetos
+## Projeto
 * **Jogo da Velha:**
    Sua tarefa é escrever um programa simples que finge jogar tic-tac-toe com o usuário. Para tornar tudo mais fácil para você, decidimos simplificar o jogo. Aqui estão nossas suposições:
    
@@ -31,10 +31,10 @@ Este repositório contém os projetos finais desenvolvidos durante o curso de Py
    
    Observação: a instrução from-import fornece acesso à função randrange definida em um módulo externo do Python chamado de random.
    
-   from random import randrange
+    ````from random import randrange
     
-   ```for i in range(10):
-    print(randrange(8))```
+  for i in range(10):
+    print(randrange(8))````
 
 ## Autor
 Paulo Victor Lima
