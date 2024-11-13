@@ -33,15 +33,8 @@ Este repositório contém os projetos finais desenvolvidos durante o curso de Py
    
    from random import randrange
     
-   for i in range(10):
-    print(randrange(8))
-
-* **Automatização de Backups:**
-    * Script em Python para automatizar o processo de backup de arquivos e diretórios.
-    * Utilização de bibliotecas como `shutil` e `os`.
-    * Tecnologias utilizadas: Python, shutil, os.
-
-[![Python](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+   ```for i in range(10):
+    print(randrange(8))```
 
 ## Autor
 Paulo Victor Lima
